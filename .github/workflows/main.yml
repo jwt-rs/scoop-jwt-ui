@@ -9,7 +9,6 @@ jobs:
     runs-on: ${{ matrix.runs-on }}
 
     steps:
-      - uses: actions/checkout@v1
       - name: Install Scoop
         uses: MinoruSekine/setup-scoop@main
       - name: Install JWT UI
